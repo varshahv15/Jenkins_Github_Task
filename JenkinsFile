@@ -4,6 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                 echo "Using Ansible Automation Tool to compile and package the code"
+                echo " Build stage is completed successfully "
             }
         }
         stage('Test') {
